@@ -2,3 +2,7 @@ Bot.on("message", async message => {
     if (message.content.startsWith("Insert your message here but with prefix first. (e.g !say hi)")) {
         message.delete()
         return message.reply(`What the bot says.`)}})
+        
+        
+        
+(DO NOT COPY THIS PART) You can change the 2nd line after content.startsWith("Anything") to anything.
